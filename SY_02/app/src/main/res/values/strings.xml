@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SY_02</string>
+    <string name="linear_11">One,One</string>
+    <string name="linear_12">One,Two</string>
+    <string name="linear_13">One,Three</string>
+    <string name="linear_14">One,Four</string>
+    <string name="linear_21">Two,One</string>
+    <string name="linear_22">Two,Two</string>
+    <string name="linear_23">Two,Three</string>
+    <string name="linear_24">Two,Four</string>
+    <string name="linear_31">Three,One</string>
+    <string name="linear_32">Three,Two</string>
+    <string name="linear_33">Three,Three</string>
+    <string name="linear_34">Three,Four</string>
+    <string name="linear_41">Four,One</string>
+    <string name="linear_42">Four,Two</string>
+    <string name="linear_43">Four,Three</string>
+    <string name="linear_44">Four,Four</string>
+    <string name="color_RED">RED</string>
+    <string name="color_ORANGE">ORANGE</string>
+    <string name="color_YELLOW">YELLOW</string>
+    <string name="color_GREEN">GREEN</string>
+    <string name="color_BLUE">BLUE</string>
+    <string name="color_INDIGO">INDIGO</string>
+    <string name="color_VIOLET">VIOLET</string>
+</resources>

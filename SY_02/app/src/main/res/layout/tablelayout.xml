@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".layout">
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/shape"
+        android:orientation="vertical"
+        android:showDividers="end"
+        >
+
+        <TableRow>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Open..."
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="Ctrl+O"
+                android:textColor="#DCDCDC"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Save..."
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="Ctrl+S"
+                android:textColor="#DCDCDC"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Save As..."
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="Ctrl+Shift+S"
+                android:textColor="#DCDCDC"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/shape"
+        android:orientation="vertical"
+        android:showDividers="end"
+        >
+
+        <TableRow
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+        <TableRow
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="X Import..."
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+
+        </TableRow>
+        <TableRow
+            >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="X Export..."
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:gravity="right"
+                android:text="Ctrl+E"
+                android:textColor="#DCDCDC"
+                android:textSize="15dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_weight="1"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="Quit"
+                android:gravity="left"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#DCDCDC"/>
+        </TableRow>
+    </TableLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
