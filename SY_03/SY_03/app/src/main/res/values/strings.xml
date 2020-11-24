@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SY_03</string>
+    <string name="username">用户名：</string>
+    <string name="pass">密码：</string>
+</resources>
