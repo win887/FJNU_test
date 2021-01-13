@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BFFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/Shopping_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="修改个人信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/tv_touxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#FF5722"
+            android:text="@string/tv_touxiang"/>
+        <ImageView
+            android:id="@+id/ch_touxiang"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/touxiang" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/nicheng"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nicheng"
+            android:textColor="#3C3A3A"
+
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_nicheng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:maxLength="11"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/note"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#3C3A3A"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:padding="10dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+
+    <Button
+        android:id="@+id/edit_save"
+        android:text="@string/edit_save"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_edit"
+        android:textColor="#fff"
+        android:textSize="23dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>

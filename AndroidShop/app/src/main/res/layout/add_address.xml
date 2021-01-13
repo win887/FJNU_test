@@ -1,0 +1,182 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BFFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/Shopping_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="新增收货信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/shuohuoren"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shuohuoren"
+            android:textColor="#3C3A3A"
+
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_shouhuoren"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tel"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tel"
+            android:textColor="#3C3A3A"
+
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:numeric="integer"
+            android:maxLength="11"
+            android:textColor="#000"
+
+            android:textSize="16sp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/place"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:textColor="#3C3A3A"
+            android:background="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place"
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_place"
+            android:layout_width="match_parent"
+            android:hint="@string/et_place"
+            android:textColorHint="#7C7A7A"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textColor="#000"
+
+            android:textSize="16sp"
+            android:padding="10dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/beizhu"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beizhu"
+            android:textColor="#3C3A3A"
+            android:layout_alignParentLeft="true"
+            />
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/et_beizhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:textColor="#000"
+
+            android:textSize="16sp"
+            android:padding="10dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F6F5F4"
+        />
+
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#DB525E"
+        android:text="确定"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+</LinearLayout>

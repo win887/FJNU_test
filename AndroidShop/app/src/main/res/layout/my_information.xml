@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:beyole="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EBE9E9"
+    tools:context=".ShoppinglistActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#00BFFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/go_back"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="15dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/Shopping_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="个人资料"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:background="@drawable/button_exit_shape"
+        >
+        <ImageView
+            android:id="@+id/touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:src="@drawable/touxiang"
+            />
+
+        <TextView
+            android:id="@+id/nicheng"
+            android:layout_below="@id/touxiang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#8D8C8C"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            android:id="@+id/note"
+            android:layout_below="@id/nicheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#8D8C8C"
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+
+
+        <RelativeLayout
+            android:id="@+id/topublish_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/topublish"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textSize="15dp"
+                android:textColor="#575656"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/button_exit_shape"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/topublish"
+                tools:ignore="NotSibling" />
+            <ImageView
+                android:id="@+id/go_to"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/go_to"
+                android:layout_centerVertical="true"
+                tools:ignore="DuplicateIds" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/publish_layout"
+            android:layout_below="@id/topublish_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/publish"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textSize="15dp"
+                android:textColor="#575656"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/button_exit_shape"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/publish"
+                tools:ignore="NotSibling" />
+            <ImageView
+                android:id="@+id/go_to"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/go_to"
+                android:layout_centerVertical="true"
+                tools:ignore="DuplicateIds" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/address_layout"
+            android:layout_below="@id/publish_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/myaddress"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="5dp"
+
+                android:textSize="15dp"
+                android:textColor="#575656"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/button_exit_shape"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/myaddress"
+                tools:ignore="NotSibling" />
+            <ImageView
+                android:id="@+id/go_to"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/go_to"
+                android:layout_centerVertical="true"
+                tools:ignore="DuplicateIds" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/history_layout"
+            android:layout_below="@id/address_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/history_buy"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:textSize="15dp"
+                android:textColor="#575656"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/button_exit_shape"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/history_buy"
+                tools:ignore="NotSibling" />
+            <ImageView
+                android:id="@+id/go_to"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/go_to"
+                android:layout_centerVertical="true"
+                tools:ignore="DuplicateIds" />
+        </RelativeLayout>
+
+
+       <RelativeLayout
+           android:layout_below="@id/history_layout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+               android:id="@+id/my_collection"
+               android:layout_width="match_parent"
+               android:layout_height="48dp"
+               android:textSize="15dp"
+               android:textColor="#575656"
+               android:paddingLeft="10dp"
+               android:gravity="center_vertical"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/button_exit_shape"
+               android:fontFamily="sans-serif-condensed"
+               android:text="@string/my_collection"
+               />
+           <ImageView
+               android:id="@+id/go_to"
+               android:layout_width="16dp"
+               android:layout_height="16dp"
+               android:layout_alignParentRight="true"
+               android:layout_marginRight="25dp"
+               android:src="@drawable/go_to"
+               android:layout_centerVertical="true"
+               tools:ignore="DuplicateIds" />
+       </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:padding="15dp">
+        <TextView
+            android:id="@+id/exit"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:textSize="28dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="@string/exit"
+            android:background="@drawable/button_exitout"/>
+    </RelativeLayout>
+</LinearLayout>

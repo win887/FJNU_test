@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Shop</string>
+
+    <!--修改个人信息-->
+    <string name="tv_touxiang">更换头像:</string>
+    <string name="zhanghao">账号:</string>
+    <string name="nicheng">昵称:</string>
+    <string name="note">个性签名:</string>
+
+
+    <string name="myaddress">收货信息</string>
+
+    <string name="addCollection">收藏</string>
+
+    <string name="toBuy">下单</string>
+
+    <!--收获信息-->
+    <string name="shuohuoren">收货人:</string>
+    <string name="tel">联系方式:</string>
+
+    <string name="province">所在地区:</string>
+    <string name="et_place">（校区、宿舍楼）</string>
+    <string name="place">详细地址:</string>
+    <string name="beizhu">备注:</string>
+
+
+    <string name="topublish">我要发布</string>
+    <string name="publish">已发布</string>
+
+    <string name="edit_save">保存更改</string>
+
+    <!--历史订单-->
+    <string name="history_buy">历史订单</string>
+    <!--我的收藏-->
+    <string name="my_collection">我的收藏</string>
+
+
+    <!--退出登录-->
+    <string name="exit">退出登录</string>
+</resources>
